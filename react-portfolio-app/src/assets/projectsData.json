@@ -1,0 +1,22 @@
+[{
+    "id": "1",
+    "title": "Weather App",
+    "description": "A weather app built with React that shows the current weather conditions and a five-day forecast for any location in the world.",
+    "image": "weather-app.png",
+    "deployedUrl": "https://jack-educational.github.io/weather-dashboard/",
+    "githubUrl": "https://github.com/Jack-educational/weather-dashboard"
+}, {
+    "id": "2",
+    "title": "Readme Generator",
+    "description": "his application will prompt the user using a series of questions using the inquirer module to build up information on their project for which they want to write a readme and generate a readme file in markdown language.",
+    "image": "todo-app.png",
+    "deployedUrl": "https://github.com/Jack-educational/readme-generator",
+    "githubUrl": "https://github.com/Jack-educational/readme-generator"
+}, {
+    "id": "3",
+    "title": "Password generator App",
+    "description": "An application that an employee can use to generate a random password based on criteria they’ve selected by modifying starter code.",
+    "image": "chat-app.png",
+    "deployedUrl": "https://jack-educational.github.io/password-generator",
+    "githubUrl": "https://github.com/Jack-educational/password-generator"
+}]
