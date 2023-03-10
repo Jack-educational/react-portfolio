@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-// import React from 'react';
+
 
 function Contact() {
     const [name, setName] = useState('');
@@ -16,13 +16,14 @@ function Contact() {
         setEmail('');
         setMessage('');
     }
+
+    // plan is to insert a function that will save the form submissions and redirect you back to the homepage
     return (
         <div className="container my-5" data-testid="contact">
             <h2 className="text-center my-5">Contact</h2>
             <div className="row">
                 <div className="col-md-8 mx-auto">
                     <form onSubmit={handleSubmit}>
-                        {/* <form> */}
                         <div className="mb-3">
                             <label htmlFor="name" className="form-label">Name</label>
                             <input type="text" className="form-control" id="name" value={name} onChange={(event) => setName(event.target.value)} />
