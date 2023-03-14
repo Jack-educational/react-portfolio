@@ -46,4 +46,4 @@ function ProjectFull() {
         );
 }
 
-export default Project;
+export default ProjectFull;
